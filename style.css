@@ -1,0 +1,187 @@
+body { 
+ background-image: url(imgs/1x/back5-down3.png); 
+  background-size: cover;
+  background-position: center;
+} 
+
+  .toggle {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .button {
+    border-radius:10% !important;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.2em;
+    background-color: #020202;
+    border: none;
+    color: #E31A22;
+  }
+
+  
+  #switches {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    margin-left: 26px;
+    margin-top: 110px;
+    border: none;
+    
+  }
+  
+  .text2 {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    margin-left: 87px;
+    margin-top: 197px;
+    color: #020202;
+    padding-top: 10px;
+  }
+  
+  .text1 {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    margin-left: 19px;
+    margin-top: 142px;
+    color: #020202;
+  }
+  
+  .text1 span:last-child {
+    padding-left: 70px;
+  }
+  
+  #title {
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    font-size: 35px;
+    margin-left: 35px;
+    margin-top: 40px;
+    color: #020202;
+  }
+  
+  #turn {
+    position: absolute;
+    background: #330000;
+    color: red;
+    font-family: courier;
+    font-size: 20px;
+    height: 30px;
+    width: 50px;
+    margin-left: 90px;
+    margin-top: 170px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    
+  }
+  
+  #outer-circle {
+    background: #020202;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    border-style: solid;
+    border-width: 25px;
+    border-color: #020202;
+    margin: auto;
+    margin-top: 250px;
+
+  }
+  
+  #topleft {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 20px 0 0 0;
+    -moz-border-radius: 250px 30px 30px 30px;
+    -webkit-border-radius: 250px 30px 30px 30px;
+    background: darkgreen;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0px 0px -250px;
+    border-style: solid;
+    border-width: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-color: #020202;
+  }
+  
+  #topright {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 0 250px 0 0;
+    -moz-border-radius: 30px 250px 30px 30px;
+    -webkit-border-radius: 30px 250px 30px 30px;
+    background: darkred;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0px 0px 0px;
+    border-style: solid;
+    border-width: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-color: #020202;
+  }
+  
+  #bottomleft {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 0 0 0 250px;
+    -moz-border-radius: 30px 30px 30px 250px;
+    -webkit-border-radius: 30px 30px 30px 250px;
+    background: goldenrod;
+    top: 50%;
+    left: 50%;
+    margin: 0px -250px 0px -250px;
+    border-style: solid;
+    border-width: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-color: #020202;
+  }
+  
+  #bottomright {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 0 0 250px 0;
+    -moz-border-radius: 30px 30px 250px 30px;
+    -webkit-border-radius: 30px 30px 250px 30px;
+    background: darkblue;
+    top: 50%;
+    left: 50%;
+    margin: 0px 0px -250px 0px;
+    border-style: solid;
+    border-width: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-color: #020202;
+  }
+  
+  #inner-circle {
+    position: absolute;
+    background: grey;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    border-style: solid;
+    border-width: 10px;
+    top: 50%;
+    left: 50%;
+    margin: -125px 0px 0px -125px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    /*background-image: url(imgs/russia-flag.jpg);*/
+    background-color: #FBE7A3;
+    background-size: cover;
+    background-position: center;
+  }
