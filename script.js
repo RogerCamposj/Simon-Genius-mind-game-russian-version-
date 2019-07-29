@@ -189,7 +189,7 @@ function check() {
   if (playerOrder[playerOrder.length - 1] !== order[playerOrder.length - 1])  /*  PlayerOrder(".lenght -1" que se refere a ultima coisa q o jogador clicou)  não for igual a orfem real(a seguencia dita pelo pc) então "good=false" que é oq dita se o jogador esta acertando ou não */
     good = false;
 
-  if (playerOrder.length == 20 && good) {
+  if (playerOrder.length == 2 && good) {
     winGame();
   }
 
@@ -230,4 +230,6 @@ function winGame() {            /*  se o jogador ganhar */
   turnCounter.innerHTML = "WIN!";
   on = false;
   win = true;
+  let audio = document.getElementById("clipWin");
+  audio.play();
 }
